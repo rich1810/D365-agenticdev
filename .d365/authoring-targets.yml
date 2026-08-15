@@ -12,14 +12,14 @@ environments:
     description: Generic Dataverse authoring environment.
 
 solutions:
-  letgoentities:
+  letsgoentities:
     environment: authoring-dataverse
-    unique_name: LetGoEntities
-    display_name: LetGoEntities
+    unique_name: LetsGoEntities
+    display_name: LetsGoEntities
     publisher_name: LetsGoPublisher
     publisher_prefix: lgpub
     publisher_option_value_prefix: 10000
-    unpack_path: solutions/LetGoEntities
+    unpack_path: solutions/LetsGoEntities
   letsgocustomcomponents:
     environment: authoring-dataverse
     unique_name: LetsGoCustomComponents
@@ -51,10 +51,10 @@ solutions:
     unpack_path: solutions/LetsGoSolutionSecurity
 
 targets:
-  letgoentities-authoring:
+  letsgoentities-authoring:
     kind: dataverse_solution
     environment: authoring-dataverse
-    solution: letgoentities
+    solution: letsgoentities
   letsgocustomcomponents-authoring:
     kind: dataverse_solution
     environment: authoring-dataverse
@@ -79,9 +79,9 @@ routing:
   - match: {component_type: config_audit}
     target: dataverse-environment-authoring
   - match: {component_type: schema_*}
-    target: letgoentities-authoring
+    target: letsgoentities-authoring
   - match: {component_type: config_*}
-    target: letgoentities-authoring
+    target: letsgoentities-authoring
   - match: {component_type: uiux_*}
     target: letsgocustomcomponents-authoring
   - match: {component_type: flow_*}

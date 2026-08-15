@@ -822,7 +822,7 @@
     "integ_connector",
     "integ_connection_ref"
   ],
-  "context_hash": "05a8c130b0dde7d59f32a5585d7da5f2743ad15ad3cec1bc9edde165cb37eff1",
+  "context_hash": "458760a1ef8f5a0e3b8f350874bebae2a84ddc258f48f2a87bccc78a25987791",
   "conventions_hash": "60cdb463a819176afe626adbfe76ab89471b77fca0ab49a016ab6b08515a3beb",
   "dataverse_web_api_capabilities": {
     "components": {
@@ -3631,7 +3631,7 @@
         "endpoint": "{authoring_target.environment_url}/api/data/v9.2",
         "kind": "endpoint",
         "oauth_public_client": {
-          "client_id": "6afbd611-098c-45ad-a8dc-21acedaffb79",
+          "client_id": "c46e6e3a-40ab-4d80-acae-7e70b5f830fe",
           "provider": "msal_public_client",
           "redirect_uri": "http://localhost",
           "scope_suffix": "/user_impersonation",
@@ -5081,7 +5081,7 @@
       ]
     }
   },
-  "development_resources_hash": "64cba4b7275885e55166ce1bd33b13abdbcc434e39cdd5c32e1f98a5860f03d8",
+  "development_resources_hash": "1d3e387636f7140604419f0266e19af7fe1376510f40f3a0b1a1c73b701e52bd",
   "development_resources_schema_hash": "dfede873f930e0eec7bdb354ef0bf01b2814f58230e3d81914a3a7b555f931b1",
   "schema_version": 1,
   "schemas": {
