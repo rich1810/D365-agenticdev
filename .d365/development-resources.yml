@@ -75,7 +75,7 @@ resources:
     description: Capability-gated Dataverse Web API authoring endpoint.
     oauth_public_client:
       provider: msal_public_client
-      client_id: 6afbd611-098c-45ad-a8dc-21acedaffb79
+      client_id: c46e6e3a-40ab-4d80-acae-7e70b5f830fe
       tenant_id: 2da74040-53ba-4f78-bfec-24b9437fbfe7
       redirect_uri: http://localhost
       scope_suffix: /user_impersonation
