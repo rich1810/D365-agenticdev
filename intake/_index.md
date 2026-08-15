@@ -15,3 +15,4 @@ different submitters — never collide.
 
 | INTK | Folder | Intake issue | Date | Submitter | REQ range | Status |
 |------|--------|--------------|------|-----------|-----------|--------|
+| INTK-0001 | `intake/wipro-sales/2026-08-15/` | [#3](https://github.com/rich1810/D365-agenticdev/issues/3) | 2026-08-15 | rich1810 | Pending | Evidence Review |
